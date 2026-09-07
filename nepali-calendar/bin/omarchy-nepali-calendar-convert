@@ -1,0 +1,21 @@
+#!/bin/bash
+# omarchy:summary=Convert between AD and Bikram Sambat (BS) dates
+# omarchy:group=calendar
+# omarchy:name=nepali-calendar-convert
+# omarchy:args=<YYYY-MM-DD> [--to-bs|--to-ad]
+# omarchy:examples=omarchy-nepali-calendar-convert 2026-09-07 | omarchy-nepali-calendar-convert 2083-05-22
+
+SOURCE="${BASH_SOURCE[0]}"
+while [[ -L "$SOURCE" ]]; do
+  DIR="$(cd -P "$(dirname "$SOURCE")" >/dev/null 2>&1 && pwd)"
+  SOURCE="$(readlink "$SOURCE")"
+  [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE"
+done
+SCRIPT_DIR="$(cd -P "$(dirname "$SOURCE")/.." >/dev/null 2>&1 && pwd)"
+
+if [[ -z $1 ]]; then
+  echo "Usage: omarchy-nepali-calendar-convert <YYYY-MM-DD> [--to-bs|--to-ad]"
+  exit 1
+fi
+
+exec python3 "$SCRIPT_DIR/main.py" convert "$@"

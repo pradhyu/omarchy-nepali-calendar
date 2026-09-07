@@ -1,0 +1,15 @@
+/* Nepali Calendar Waybar Module Styling */
+#custom-nepali-calendar {
+  font-family: "Noto Sans Devanagari", "Fira Code", monospace;
+  padding: 0 8px;
+  margin: 0 4px;
+}
+
+#custom-nepali-calendar.holiday {
+  color: #e5c07b;
+  font-weight: bold;
+}
+
+#custom-nepali-calendar.saturday {
+  color: #e06c75;
+}

@@ -1,0 +1,34 @@
+[general]
+# Language: "ne" (Devanagari) or "en" (English / Romanized)
+language = "ne"
+
+# Timezone: "local" (system local time) or "NPT" (Nepal Standard Time, UTC+05:45)
+timezone = "local"
+
+# Format strings:
+# %Y - BS Year (२०८३)      %y - 2-digit Year (८३)
+# %M - Month Name (भदौ)    %m - Month Number (०५)
+# %D - Day of Month (२२)   %d - Day Number (22)
+# %W - Day of Week (सोमबार) %w - Short Day (सोम)
+# %T - Tithi (तृतीया)      %P - Paksha (शुक्ल पक्ष)
+format_bar = "🇳🇵 %Y %M %D"
+format_copy = "%Y-%m-%D"
+format_today = "%W, %D %M %Y (%T)"
+
+[waybar]
+show_icon = true
+icon = "🇳🇵"
+show_tithi = true
+upcoming_events_count = 3
+highlight_holidays = true
+signal_id = 11
+
+[notifications]
+daily_briefing = true
+notify_on_holiday = true
+
+[ui]
+# Highlighting colors
+saturday_color = "#e06c75"
+holiday_color = "#e5c07b"
+today_color = "#98c379"

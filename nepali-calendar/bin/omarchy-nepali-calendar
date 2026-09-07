@@ -1,0 +1,17 @@
+#!/bin/bash
+# omarchy:summary=Bikram Sambat (वि.सं.) Nepali Calendar for Omarchy
+# omarchy:group=calendar
+# omarchy:name=nepali-calendar
+# omarchy:args=[today|cal|convert|copy|events|waybar|tui|toggle-lang]
+# omarchy:examples=omarchy-nepali-calendar today | npcal cal | npcal convert 2026-09-07
+# omarchy:aliases=npcal
+
+SOURCE="${BASH_SOURCE[0]}"
+while [[ -L "$SOURCE" ]]; do
+  DIR="$(cd -P "$(dirname "$SOURCE")" >/dev/null 2>&1 && pwd)"
+  SOURCE="$(readlink "$SOURCE")"
+  [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE"
+done
+SCRIPT_DIR="$(cd -P "$(dirname "$SOURCE")/.." >/dev/null 2>&1 && pwd)"
+
+exec python3 "$SCRIPT_DIR/main.py" "$@"

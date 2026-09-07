@@ -1,0 +1,13 @@
+{
+  "custom/nepali-calendar": {
+    "format": "{}",
+    "return-type": "json",
+    "exec": "omarchy-nepali-calendar waybar",
+    "interval": 60,
+    "signal": 11,
+    "tooltip": true,
+    "on-click": "omarchy-launch-floating-terminal-with-presentation 'omarchy-nepali-calendar tui'",
+    "on-click-right": "omarchy-nepali-calendar toggle-lang && pkill -RTMIN+11 waybar",
+    "on-click-middle": "omarchy-nepali-calendar copy && notify-send -u low 'Nepali Calendar' 'Copied BS date to clipboard!'"
+  }
+}

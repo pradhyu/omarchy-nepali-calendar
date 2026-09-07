@@ -1,0 +1,17 @@
+[plugin]
+id = "nepali-calendar"
+name = "Nepali Calendar (वि.सं.)"
+version = "1.0.0"
+author = "Omarchy Community"
+description = "Bikram Sambat (BS) Nepali calendar with Waybar module, CLI suite, Walker date converter, and TUI modal."
+license = "MIT"
+min_omarchy_version = "1.0"
+
+[dependencies]
+packages = ["python", "wl-clipboard", "libnotify"]
+
+[integrations]
+waybar_module = "custom/nepali-calendar"
+menu_commands = ["omarchy-nepali-calendar"]
+cli_binaries = ["omarchy-nepali-calendar", "omarchy-nepali-calendar-convert", "npcal"]
+hooks = ["post-boot.d/nepali-calendar-briefing.sh"]

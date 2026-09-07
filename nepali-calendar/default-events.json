@@ -1,0 +1,68 @@
+{
+  "recurring": [
+    { "month": 1, "day": 1, "title_ne": "नयाँ वर्ष (बैशाख संक्रान्ति)", "title_en": "Nepali New Year", "is_holiday": true, "category": "national" },
+    { "month": 1, "day": 11, "title_ne": "लोकतन्त्र दिवस", "title_en": "Loktantra Diwas", "is_holiday": false, "category": "national" },
+    { "month": 1, "day": 18, "title_ne": "अन्तर्राष्ट्रिय मजदुर दिवस", "title_en": "Labour Day", "is_holiday": true, "category": "international" },
+    { "month": 2, "day": 15, "title_ne": "गणतन्त्र दिवस", "title_en": "Republic Day", "is_holiday": true, "category": "national" },
+    { "month": 3, "day": 29, "title_ne": "भानु जयन्ती", "title_en": "Bhanu Jayanti", "is_holiday": false, "category": "cultural" },
+    { "month": 4, "day": 1, "title_ne": "साउने संक्रान्ति", "title_en": "Saune Sankranti", "is_holiday": false, "category": "cultural" },
+    { "month": 6, "day": 3, "title_ne": "संविधान दिवस (राष्ट्रिय दिवस)", "title_en": "Constitution Day", "is_holiday": true, "category": "national" },
+    { "month": 9, "day": 27, "title_ne": "पृथ्वी जयन्ती (राष्ट्रिय एकता दिवस)", "title_en": "Prithvi Jayanti", "is_holiday": true, "category": "national" },
+    { "month": 10, "day": 1, "title_ne": "माघे संक्रान्ति", "title_en": "Maghe Sankranti", "is_holiday": true, "category": "festival" },
+    { "month": 10, "day": 16, "title_ne": "सहिद दिवस", "title_en": "Martyrs' Day", "is_holiday": false, "category": "national" },
+    { "month": 11, "day": 7, "title_ne": "प्रजातन्त्र दिवस", "title_en": "Democracy Day", "is_holiday": true, "category": "national" },
+    { "month": 11, "day": 24, "title_ne": "अन्तर्राष्ट्रिय महिला दिवस", "title_en": "International Women's Day", "is_holiday": true, "category": "international" }
+  ],
+  "years": {
+    "2081": [
+      { "month": 1, "day": 1, "title_ne": "नयाँ वर्ष २०८१", "title_en": "New Year 2081", "is_holiday": true },
+      { "month": 2, "day": 10, "title_ne": "बुद्ध जयन्ती / उभौली पर्व", "title_en": "Buddha Jayanti / Ubhauli", "is_holiday": true },
+      { "month": 5, "day": 3, "title_ne": "जनै पूर्णिमा / रक्षाबन्धन", "title_en": "Janai Purnima", "is_holiday": false },
+      { "month": 5, "day": 4, "title_ne": "गाईजात्रा", "title_en": "Gai Jatra", "is_holiday": false },
+      { "month": 5, "day": 10, "title_ne": "श्रीकृष्ण जन्माष्टमी", "title_en": "Krishna Janmashtami", "is_holiday": true },
+      { "month": 5, "day": 21, "title_ne": "हरितालिका तीज", "title_en": "Haritalika Teej", "is_holiday": true },
+      { "month": 5, "day": 23, "title_ne": "ऋषि पञ्चमी", "title_en": "Rishi Panchami", "is_holiday": false },
+      { "month": 5, "day": 31, "title_ne": "इन्द्रजात्रा", "title_en": "Indra Jatra", "is_holiday": true },
+      { "month": 6, "day": 17, "title_ne": "घटस्थापना (दशैं सुरु)", "title_en": "Ghatasthapana", "is_holiday": false },
+      { "month": 6, "day": 24, "title_ne": "फूलपाती", "title_en": "Fulpati", "is_holiday": true },
+      { "month": 6, "day": 25, "title_ne": "महाअष्टमी", "title_en": "Maha Ashtami", "is_holiday": true },
+      { "month": 6, "day": 26, "title_ne": "महानवमी", "title_en": "Maha Navami", "is_holiday": true },
+      { "month": 6, "day": 27, "title_ne": "विजया दशमी", "title_en": "Vijaya Dashami", "is_holiday": true },
+      { "month": 7, "day": 15, "title_ne": "लक्ष्मी पूजा (दीपावली)", "title_en": "Laxmi Puja", "is_holiday": true },
+      { "month": 7, "day": 16, "title_ne": "गोवर्धन पूजा / म्ह पूजा", "title_en": "Govardhan Puja / Mha Puja", "is_holiday": true },
+      { "month": 7, "day": 17, "title_ne": "भाइटीका", "title_en": "Bhai Tika", "is_holiday": true },
+      { "month": 7, "day": 22, "title_ne": "छठ पर्व", "title_en": "Chhath Parva", "is_holiday": true },
+      { "month": 11, "day": 14, "title_ne": "महाशिवरात्रि", "title_en": "Maha Shivaratri", "is_holiday": true },
+      { "month": 11, "day": 29, "title_ne": "फागु पूर्णिमा (होली - पहाड)", "title_en": "Holi (Hilly region)", "is_holiday": true },
+      { "month": 11, "day": 30, "title_ne": "होली (तराई)", "title_en": "Holi (Terai region)", "is_holiday": true }
+    ],
+    "2082": [
+      { "month": 1, "day": 1, "title_ne": "नयाँ वर्ष २०८२", "title_en": "New Year 2082", "is_holiday": true },
+      { "month": 1, "day": 29, "title_ne": "बुद्ध जयन्ती", "title_en": "Buddha Jayanti", "is_holiday": true },
+      { "month": 5, "day": 9, "title_ne": "हरितालिका तीज", "title_en": "Haritalika Teej", "is_holiday": true },
+      { "month": 6, "day": 6, "title_ne": "घटस्थापना", "title_en": "Ghatasthapana", "is_holiday": false },
+      { "month": 6, "day": 13, "title_ne": "फूलपाती", "title_en": "Fulpati", "is_holiday": true },
+      { "month": 6, "day": 14, "title_ne": "महाअष्टमी", "title_en": "Maha Ashtami", "is_holiday": true },
+      { "month": 6, "day": 15, "title_ne": "महानवमी", "title_en": "Maha Navami", "is_holiday": true },
+      { "month": 6, "day": 16, "title_ne": "विजया दशमी", "title_en": "Vijaya Dashami", "is_holiday": true },
+      { "month": 7, "day": 3, "title_ne": "लक्ष्मी पूजा", "title_en": "Laxmi Puja", "is_holiday": true },
+      { "month": 7, "day": 4, "title_ne": "गोवर्धन पूजा", "title_en": "Govardhan Puja", "is_holiday": true },
+      { "month": 7, "day": 5, "title_ne": "भाइटीका", "title_en": "Bhai Tika", "is_holiday": true },
+      { "month": 7, "day": 10, "title_ne": "छठ पर्व", "title_en": "Chhath Parva", "is_holiday": true },
+      { "month": 11, "day": 4, "title_ne": "महाशिवरात्रि", "title_en": "Maha Shivaratri", "is_holiday": true },
+      { "month": 11, "day": 19, "title_ne": "फागु पूर्णिमा (होली)", "title_en": "Holi Festival", "is_holiday": true }
+    ],
+    "2083": [
+      { "month": 1, "day": 1, "title_ne": "नयाँ वर्ष २०८३", "title_en": "New Year 2083", "is_holiday": true },
+      { "month": 1, "day": 18, "title_ne": "बुद्ध जयन्ती", "title_en": "Buddha Jayanti", "is_holiday": true },
+      { "month": 5, "day": 22, "title_ne": "हरितालिका तीज", "title_en": "Haritalika Teej", "is_holiday": true },
+      { "month": 5, "day": 24, "title_ne": "ऋषि पञ्चमी", "title_en": "Rishi Panchami", "is_holiday": false },
+      { "month": 6, "day": 17, "title_ne": "घटस्थापना (दशैं सुरु)", "title_en": "Ghatasthapana", "is_holiday": false },
+      { "month": 6, "day": 24, "title_ne": "विजया दशमी", "title_en": "Vijaya Dashami", "is_holiday": true },
+      { "month": 7, "day": 14, "title_ne": "लक्ष्मी पूजा", "title_en": "Laxmi Puja", "is_holiday": true },
+      { "month": 7, "day": 16, "title_ne": "भाइटीका", "title_en": "Bhai Tika", "is_holiday": true },
+      { "month": 11, "day": 23, "title_ne": "महाशिवरात्रि", "title_en": "Maha Shivaratri", "is_holiday": true },
+      { "month": 12, "day": 8, "title_ne": "फागु पूर्णिमा (होली)", "title_en": "Holi Festival", "is_holiday": true }
+    ]
+  }
+}
